@@ -203,6 +203,7 @@ set(COMPONENT_ADD_INCLUDEDIRS
   libraries/WiFiClientSecure/src
   libraries/WiFi/src
   libraries/Wire/src
+  tools/sdk/include/spi_flash
   )
 
 set(COMPONENT_PRIV_INCLUDEDIRS cores/esp32/libb64)

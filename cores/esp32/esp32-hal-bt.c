@@ -14,7 +14,7 @@
 
 #include "esp32-hal-bt.h"
 
-#ifdef CONFIG_BT_ENABLED
+#if defined(CONFIG_BT_ENABLED)
 
 bool btInUse(){ return true; }
 
